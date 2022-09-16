@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="Item"
+        android:icon="@drawable/menu" app:showAsAction="ifRoom">
+        <menu>
+            <item
+                android:id="@+id/inicio"
+
+                android:icon="@drawable/home"
+                android:title="Item" />
+            <item
+                android:id="@+id/configuracion"
+                android:icon="@drawable/settings"
+                android:title="Item" />
+            <item
+                android:id="@+id/salir"
+                android:icon="@drawable/exit"
+                android:title="Item" />
+        </menu>
+    </item>
+
+
+
+
+</menu>
